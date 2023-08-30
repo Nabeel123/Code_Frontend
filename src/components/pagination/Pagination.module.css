@@ -1,0 +1,25 @@
+/* components/Pagination.module.css */
+.pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+
+  /* background-color: red; */
+}
+
+.paginationDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.activeDot {
+  background-color: black;
+}
